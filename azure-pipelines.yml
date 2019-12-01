@@ -19,5 +19,7 @@ steps:
     npm install -g @angular/cli
     npm install
     npm audit
+    npm install --save-dev protractor@6.0.0
+    npm install --save-dev karma@4.4.1
     ng build --prod
   displayName: 'npm install and build'
