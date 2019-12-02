@@ -20,6 +20,5 @@ steps:
     npm install
     npm install --save-dev protractor@6.0.0
     npm install --save-dev karma@4.4.1
-    browser-sync start --no-open
-    npm start
+    npm start BROWSER=none
   displayName: 'npm install and build'
